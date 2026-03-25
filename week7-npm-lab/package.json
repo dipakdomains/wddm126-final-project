@@ -1,0 +1,32 @@
+{
+  "name": "week7-npm-lab",
+  "version": "1.0.0",
+  "description": "npm package management lab for WDDM 126",
+  "keywords": [
+    "npm",
+    "package-management",
+    "wddm126"
+  ],
+  "homepage": "https://github.com/dipakdomains/wddm126-final-project#readme",
+  "bugs": {
+    "url": "https://github.com/dipakdomains/wddm126-final-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipakdomains/wddm126-final-project.git"
+  },
+  "license": "ISC",
+  "author": "Dipak Deb Nath",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.20"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
